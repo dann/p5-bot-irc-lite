@@ -27,6 +27,10 @@ features(
         -default => 0,
         recommends_hack( 'AnyEvent::Feed' => 0 ),
     ],
+    'use Twitter::TrackHashTag plugin?' => [
+        -default => 0,
+        recommends_hack('AnyEvent::Twitter::Stream' => 0),
+    ],
 );
 
 test_requires(
