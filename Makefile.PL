@@ -31,6 +31,17 @@ features(
         -default => 0,
         recommends_hack('AnyEvent::Twitter::Stream' => 0),
     ],
+    'use Title plugin?' => [
+        -default => 1,
+        recommends_hack('LWP::UserAgent' => 0),
+        recommends_hack('URI::Find::UTF8' => 0),
+        recommends_hack('HTTP::Response::Encoding' => 0),
+    ],
+    'use JSONRPC plugin?' => [
+        -default => 1,
+        recommends_hack('AnyEvent::JSONRPC::Lite' => 0),
+    ],
+
 );
 
 test_requires(
