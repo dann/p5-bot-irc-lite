@@ -60,6 +60,8 @@ Takatoshi Kitano E<lt>kitano.tk@gmail.comE<gt>
 
 =head1 SEE ALSO
 
+http://yusukebe.com/archives/09/09/10/020033.html
+
 =head1 LICENSE
 
 This library is free software; you can redistribute it and/or modify
